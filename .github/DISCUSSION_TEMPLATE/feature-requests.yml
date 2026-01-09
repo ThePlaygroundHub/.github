@@ -1,5 +1,7 @@
-labels: "enhancement,request"
-body:
+labels:
+  - "request"
+  - "enhancement"
+  body:
   - type: textarea
     id: overview
     attributes:
