@@ -1,0 +1,37 @@
+labels: "feature request,enhancement"
+body:
+  - type: textarea
+    id: overview
+    attributes:
+      label: Overview
+      description: Overview
+      placeholder: "E.g., Request to create a dashboard that shows key performance indicators (KPIs) for each team member."
+    validations:
+      required: true
+
+  - type: textarea
+    id: limitations
+    attributes:
+      label: Current Limitations
+      description: What limitations are you facing with current processes/tools?
+      placeholder: "E.g., Currently, managers have to manually track employee performance in spreadsheets, which is time-consuming and error-prone."
+    validations:
+      required: true
+
+  - type: textarea
+    id: why-matters
+    attributes:
+      label: Why This Matters
+      description: Why is solving this important for the organization?
+      placeholder: "E.g., A dashboard will give managers a clear overview of team performance, improve decision-making, and save time on manual reporting."
+    validations:
+      required: true
+
+  - type: textarea
+    id: feature-details
+    attributes:
+      label: Feature Request
+      description: What exactly are you requesting? Please be specific.
+      placeholder: "E.g., Implement a performance dashboard integrated with existing task management tools that automatically aggregates KPIs such as completed tasks, project deadlines met, and individual contributions."
+    validations:
+      required: true
