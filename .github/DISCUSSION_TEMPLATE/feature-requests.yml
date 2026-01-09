@@ -1,4 +1,4 @@
-labels: "enhancement,feature request"
+labels: "enhancement,request"
 body:
   - type: textarea
     id: overview
